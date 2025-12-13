@@ -4,6 +4,10 @@
   "description": "Shows JS documentation comments of TypeScript union types in VSCode quick info",
   "version": "0.0.1",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Serveny/ts-union-docs-vscode-extension"
+  },
   "engines": {
     "vscode": "^1.66.0"
   },
@@ -22,19 +26,20 @@
       }
     ]
   },
-  "dependencies": {
-    "ts-union-docs-plugin": "file:../ts-union-docs-plugin"
-  },
   "scripts": {
     "vscode:prepublish": "npm run check && npm run build",
     "check": "tsc --noEmit",
     "build": "vite build",
     "watch": "vite watch",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "pack": "npm i && vsce package -o dist",
+    "publish": "vsce publish"
   },
   "devDependencies": {
+    "ts-union-docs-plugin": "github:serveny/ts-union-docs-plugin",
     "@types/node": "^22.19.2",
-    "@types/vscode": "^1.107.0",
+    "@types/vscode": "^1.66.0",
+    "@vscode/vsce": "^3.7.1",
     "eslint": "^9.39.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.48.1",
