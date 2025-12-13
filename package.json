@@ -3,6 +3,7 @@
   "displayName": "TS Union Docs",
   "description": "Shows JS documentation comments of TypeScript union types in VSCode quick info",
   "version": "0.0.1",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.66.0"
   },
