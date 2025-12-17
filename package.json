@@ -34,6 +34,7 @@
     "watch": "vite watch",
     "lint": "eslint src",
     "pack": "npm i && vsce package -o dist",
+    "release:github": "npm run pack && node ./scripts/release-github.mjs",
     "publish": "vsce publish"
   },
   "devDependencies": {
