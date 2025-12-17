@@ -32,9 +32,6 @@ if (dirty) {
 	process.exit(1);
 }
 
-// build VSIX
-sh('npm run vsix:build');
-
 // find created vsix (vsce names it like publisher.extension-0.1.0.vsix)
 const vsix = fs
 	.readdirSync('.')
