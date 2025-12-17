@@ -34,7 +34,7 @@ if (dirty) {
 
 // find created vsix (vsce names it like publisher.extension-0.1.0.vsix)
 const vsix = fs
-	.readdirSync('.')
+	.readdirSync('./dist')
 	.filter((f) => f.endsWith('.vsix'))
 	.sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs)[0];
 
