@@ -2,7 +2,7 @@
   "name": "ts-union-docs-vscode-extension",
   "displayName": "TS Union Docs",
   "description": "Shows JS documentation comments of TypeScript union types in VSCode quick info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Serveny",
   "repository": {
     "type": "git",
@@ -43,7 +43,7 @@
     "@vscode/vsce": "^3.7.1",
     "eslint": "^9.39.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.48.1",
-    "vite": "^7.2.7"
+    "typescript-eslint": "^8.50.1",
+    "vite": "^7.3.0"
   }
 }
