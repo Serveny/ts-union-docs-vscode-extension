@@ -16,7 +16,9 @@
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:typescript"
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:javascript"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -33,15 +35,17 @@
     "build": "vite build",
     "watch": "vite watch",
     "lint": "eslint src",
-    "pack": "npm i && vsce package -o dist",
+    "pack": "npm i github:serveny/ts-union-docs-plugin && vsce package -o dist",
     "publish": "vsce publish"
   },
+  "dependencies": {
+    "ts-union-docs-plugin": "github:serveny/ts-union-docs-plugin"
+  },
   "devDependencies": {
-    "ts-union-docs-plugin": "github:serveny/ts-union-docs-plugin",
     "@types/node": "^22.19.2",
     "@types/vscode": "^1.66.0",
     "@vscode/vsce": "^3.7.1",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.50.1",
     "vite": "^7.3.0"

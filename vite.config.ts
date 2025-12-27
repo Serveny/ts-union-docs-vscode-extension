@@ -9,7 +9,6 @@ export default defineConfig({
 		lib: {
 			entry: {
 				extension: path.resolve(__dirname, 'src/extension.ts'),
-				plugin: path.resolve(__dirname, 'node_modules/ts-union-docs-plugin/dist/index.js'),
 			},
 			formats: ['cjs'],
 			fileName: (format, entryName) => `${entryName}.js`,

@@ -13,3 +13,5 @@ vsc-extension-quickstart.md
 *.map
 vite.config.ts
 eslint.config.mjs
+
+!node_modules/ts-union-docs-plugin/**

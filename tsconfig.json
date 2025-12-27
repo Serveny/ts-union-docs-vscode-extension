@@ -16,8 +16,10 @@
 		"noUnusedParameters": true,
 		"rootDir": "src",
 		"noFallthroughCasesInSwitch": true,
+		"checkJs": true,
+		"allowJs": true
 	},
 	"include": [
 		"src"
-	]
+	],
 }
