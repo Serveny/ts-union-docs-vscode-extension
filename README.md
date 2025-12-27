@@ -1,5 +1,9 @@
 # 🟦 TypeScript Union Docs VSCode Extension
 
+[![Version](https://vsmarketplacebadges.dev/version/Serveny.ts-union-docs-vscode-extension.svg)](https://marketplace.visualstudio.com/items?itemName=Serveny.ts-union-docs-vscode-extension)
+[![Installs](https://vsmarketplacebadges.dev/installs/Serveny.ts-union-docs-vscode-extension.svg)](https://marketplace.visualstudio.com/items?itemName=Serveny.ts-union-docs-vscode-extension)
+[![Rating](https://vsmarketplacebadges.dev/rating/Serveny.ts-union-docs-vscode-extension.svg)](https://marketplace.visualstudio.com/items?itemName=Serveny.ts-union-docs-vscode-extension)
+
 A **VSCode TypeScript extension** that displays **JSDoc comments** from union type members directly in your editor's **quick info** (hover) tooltips.
 
 <p align="center">
