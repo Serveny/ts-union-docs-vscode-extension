@@ -1,5 +1,9 @@
 # 🟦 TypeScript Union Docs VSCode Extension
 
+[![Open VSX Version](https://img.shields.io/open-vsx/v/Serveny/ts-union-docs-vscode-extension)](https://open-vsx.org/extension/Serveny/ts-union-docs-vscode-extension)
+[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/Serveny/ts-union-docs-vscode-extension)](https://open-vsx.org/extension/Serveny/ts-union-docs-vscode-extension)
+[![Open VSX Rating](https://img.shields.io/open-vsx/rating/Serveny/ts-union-docs-vscode-extension)](https://open-vsx.org/extension/Serveny/ts-union-docs-vscode-extension)
+
 [![Version](https://vsmarketplacebadges.dev/version/Serveny.ts-union-docs-vscode-extension.svg)](https://marketplace.visualstudio.com/items?itemName=Serveny.ts-union-docs-vscode-extension)
 [![Installs](https://vsmarketplacebadges.dev/installs/Serveny.ts-union-docs-vscode-extension.svg)](https://marketplace.visualstudio.com/items?itemName=Serveny.ts-union-docs-vscode-extension)
 [![Rating](https://vsmarketplacebadges.dev/rating/Serveny.ts-union-docs-vscode-extension.svg)](https://marketplace.visualstudio.com/items?itemName=Serveny.ts-union-docs-vscode-extension)
