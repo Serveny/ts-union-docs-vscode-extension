@@ -11,8 +11,21 @@
 A **VSCode TypeScript extension** that displays **JSDoc comments** from union type members directly in your editor's **quick info** (hover) tooltips.
 
 <p align="center">
-	<img width="600"  alt="image" src="demo.png" />
 </p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+   <img src="demo.png" width="100%" alt="Quick Info Demo" />
+      <br />
+      <sub>JS Doc comment for union members in <b>Quick Info</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="demo_completion.png" width="100%" alt="Completion Demo" />
+      <br />
+      <sub><b>Snippet Completions</b> for template union members</sub>
+    </td>
+  </tr>
+</table>
 
 > [!IMPORTANT]
 > Issues please to the [TS language plugin repository](https://github.com/Serveny/ts-union-docs-plugin)

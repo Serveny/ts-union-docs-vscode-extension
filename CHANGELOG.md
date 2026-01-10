@@ -1,9 +1,16 @@
-# Change Log
+# Changelog
 
-All notable changes to the "ts-union-docs" extension will be documented in this file.
+This log tracks changes to the extension wrapper only.
+For core logic updates, see the [TS Union Docs Plugin Changelog](https://github.com/Serveny/ts-union-docs-plugin/blob/main/CHANGELOG.md).
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.1.0]
 
-## [Unreleased]
+- No extension-specific changes
 
-- Initial release
+## [0.0.2]
+
+- No extension-specific changes
+
+## [0.0.1]
+
+- Wrapped [TS Union Docs Plugin](https://github.com/Serveny/ts-union-docs-plugin)
