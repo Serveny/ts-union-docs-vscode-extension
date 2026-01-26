@@ -3,6 +3,10 @@
 This log tracks changes to the extension wrapper only.
 For core logic updates, see the [TS Union Docs Plugin Changelog](https://github.com/Serveny/ts-union-docs-plugin/blob/main/CHANGELOG.md).
 
+## [0.2.0]
+
+- No extension-specific changes
+
 ## [0.1.0]
 
 - No extension-specific changes
