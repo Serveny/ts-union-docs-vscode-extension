@@ -3,6 +3,12 @@
 This log tracks changes to the extension wrapper only.
 For core logic updates, see the [TS Union Docs Plugin Changelog](https://github.com/Serveny/ts-union-docs-plugin/blob/main/CHANGELOG.md).
 
+## [0.3.4]
+
+- Updated bundled TS Union Docs Plugin to 0.3.4
+- Reduced package size: only the plugin's runtime files are bundled (no sources or tests)
+- Updated dev dependencies
+
 ## [0.3.3]
 
 - No extension-specific changes
