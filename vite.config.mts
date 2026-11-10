@@ -8,7 +8,7 @@ export default defineConfig({
 		minify: false,
 		lib: {
 			entry: {
-				extension: path.resolve(__dirname, 'src/extension.ts'),
+				extension: path.resolve(import.meta.dirname, 'src/extension.ts'),
 			},
 			formats: ['cjs'],
 			fileName: (format, entryName) => `${entryName}.js`,
